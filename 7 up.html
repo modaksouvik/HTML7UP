@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7UP.com</title>
+    <style>
+	*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-family: sans-sherif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+}
+.navigation{
+    background-color: #009e5f;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif
+}
+.header-nav-items a{
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    height:100%;
+    /display:flex;/
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.header-nav-items a:hover{
+    color: rgb(9,89,9);
+}
+.large-logo-img{
+    width: 110%;
+    height:90px;
+    left:0;
+    top:0;
+}
+/navigation end/
+
+/main start/
+/simple 7up start/
+.first{
+    width: 100%;
+    height: 800px;
+    display:flex;
+    z-index: 1;
+}
+.first-left{
+    height:100%;
+    width: 30%;
+    text-transform: uppercase;
+}
+.box{
+    display:flex;
+    justify-content: center;
+}
+.first-right{
+    height:100%;
+    width:70%;
+    background-image: url(images/7up_featured.jpg);
+    background-repeat: no-repeat;
+    justify-content:center;
+	display:flex;
+	gap:20px;
+}
+.play-btn{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-left img{
+	padding-top:45px;
+    vertical-align: middle;
+    width:100%;
+}
+.first-left h2{
+    color:#009e5f;
+    text-align: center;
+    font-size: 30px;
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:-4px,0px,10px;
+    padding-bottom:20px;
+}
+.explore{
+    color:#009e5f;
+    border:solid 3px #009e5f;
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: 900;
+    font-size: 25px;
+    align-items: center;
+}
+.first-left:hover{
+    .explore{
+        background-color: #009e5f;
+        color:white;
+    }
+    transition:all 200ms,opacity 400ms;
+}
+
+
+    
+.banner_7up{
+    display:flex;
+    width:100%;
+    height:900px;
+}
+.banner_7up img{
+    width:200%;
+    height:100%;
+    justify-content: right;
+}
+.content2{
+    position:absolute;
+    margin-top:15%;
+    margin-left:10%;
+    color:white;
+} 
+.content2 h1{
+    font-size:66px;
+    font-weight:900;
+    margin: 20px 0px;
+}
+.content2 p{
+    font-size:30px;
+    font-weight:700;
+}
+.content2 a{
+    text-decoration: none;
+    color:#009e5f;
+    padding:20px;
+    margin-top: 20px;
+    border: solid 3px #009e5f;
+    position:absolute;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.content2 a:hover{
+    background-color: #009e5f;
+    color:white;
+    transition:all 200ms,opacity 400ms;
+}
+.caption1{
+	padding-left:55px;
+	}
+.caption2{
+	padding-left:55px;}
+.caption3{
+	padding-left:55px;}
+.caption4{
+	padding-left:75px;}
+	
+.a{
+padding-left:20px;
+padding-top:50px;
+padding-bottom:40px;
+}
+.b{
+padding-left:20px;
+padding-top:50px;
+padding-bottom:40px;
+}
+.c{
+padding-left:20px;
+padding-top:50px;
+padding-bottom:40px;
+}
+.d{
+padding-left:30px;
+padding-top:50px;
+padding-bottom:40px;
+}
+.options {
+padding:30px;}	
+
+.utility{
+    background-color:#BA2626;
+	padding-left:200px;
+	padding-bottom:30px;
+	padding-top:30px;
+	}
+.credit{
+	padding-left:400px;}
+	
+.a
+	{
+	border-radius:20px;
+	}
+	
+	</style>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="#home" class="logo">
+            <img src="https://www.7up.com/images/7up-logo-large.png" width="100px">
+        </a>
+        <div class="header-nav-items">
+            <a href="#">Product</a>
+            <a href="#">Recipes</a>
+            <a href="#">Stores</a>
+            <a href="#">More</a>
+        </div>
+    </nav>
+    <main>
+        <div class="first">
+            <div class="first-left">
+                <a href="#items"><img src="https://www.7up.com/images/products/slider/7up.jpg" alt="glass image">
+                    <b><h2>REFRESHING 7UP</h2></b>
+                    <div class="box">
+                        <div class="explore">
+                            explore now
+                        </div>
+                    </div>
+                </a>
+            </div>
+             <div class="first-right" style="display:flex;"><iframe width="1000" height="315" src="https://www.youtube.com/embed/9xJqhhqdIyM?si=g5Mlz-FffbShOBu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen align="right" align="right"></iframe>
+                <!--<div class="play-btn"><img src="images/play-btn.png" alt="play-btn">
+                </div>-->
+        </div>
+        </div>
+
+        <div class="banner_7up">
+            <img src="https://www.7up.com/images/simple-7up/7up-simple-banner.jpg" alt="7up-banner">
+            <div class="content2">
+                <h1>New Simple 7up</h1>
+                <p>real ingredients. real 7up taste.</p>
+                <p>now available.</p>
+                <a href="#items">EXPLORE NOW</a>
+            </div>
+        </div><br><br><br>
+		<div class="options" style="display:flex; gap:150px;>
+        <div class="overlay">
+            <div class="cocktail">
+                <div class="cocktail-btn"><font size="100px"><a href="https://www.7up.com/recipes/filter/drink/over21" style="color:#fff; background-color:#F45EC6;padding:20px">
+				Cocktail Recipes</a></font></div>
+            </div>
+            <div class="recepie">
+                    <div class="recepie-btn"><font size="100px"><a href="https://www.7up.com/recipes/filter/food" style="color:#fff; background-color:#6BAD38;padding:20px;">
+					cooking recepie</a></font></div>
+                </div>
+                <div class="all-recepies">
+                    <div class="all-recepies-btn"><font size="100px"><a href="https://www.7up.com/en/recipes" style="color:#fff; background-color:#D265CA;padding:20px;">
+					See All Recipes</a></font></div>
+                </div>
+            </div></div><br><br><br>
+			<section class="7ups">
+			<div class="7ups" style="display:flex; background-color:green; gap:120px">
+			<figure class="a">
+				<img src="https://s7d1.scene7.com/is/image/kdrp/SU_Regular_12oz_Can_Wet?$Dynamic-PublicURL-PNG?wid=250&hei=500"
+				alt="original 7up"
+				width="250px">
+				<figcaption class="caption1"><strong><font color="white" size="5">original 7up</font></strong></figcaption>
+			</figure>
+			
+			<figure class="b">
+					<img src="https://s7d1.scene7.com/is/image/kdrp/SU_Regular_ZS_12oz_Can_Dry?$Dynamic-PublicURL-PNG?wid=250&hei=500"
+				        alt="zero suger"
+							width="250px">
+				<figcaption class="caption2"><strong><font color="white" size="5">zero sugar 7up</font></strong></figcaption>
+			</figure>
+			<figure class="c">
+					<img src="C:\Users\ABIRBHAB\Desktop\7up project\7up-cherry-zero-sugar-3246309549.png"
+						alt="cherry zero suger"
+							width="250px">
+				<figcaption class="caption3"><strong><<font color="white" size="5">7p cherry zero<br> sugar</font></strong></figcaption>
+			</figure>
+			<figure class="d">
+					<img src="https://s7d1.scene7.com/is/image/kdrp/SU_Cherry_12oz_Can_Dry?$Dynamic-PublicURL-PNG?wid=250&hei=500"
+						alt="cherry 7up"
+							width="280px">
+				<figcaption  class="caption4"><strong><font color="white" size="5">cherry 7up</font></strong></figcaption>
+			</figure>
+			
+				</div>
+			</section>
+			
+				
+			</figure>
+			<div class="img">
+			<img src="C:\Users\ABIRBHAB\Desktop\7up project\img1.png" width="1600px" >
+			</div>
+            <div class="items" id="items">
+
+            </div>
+            <footer class="footer">
+                <div class="footer-2">
+                    <nav class="footer-nav">
+                        <ul class="social-media" style="display:flex; gap:20px;">
+                            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                            <li><a href="#"><i class="ri-pinterest-fill"></i></a></li>
+                            <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                            <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+                        </ul>
+                        <ul class="utility" style="display:flex; gap:30px">
+                            <li><a href="#" style="color:white">Privacy Policy</a></li>
+                            <li><a href="#" style="color:white">Do Not Sell or Share My Personal Information</a></li>
+                            <li><a href="#" style="color:white">Terms of Use</a></li>
+                            <li><a href="#" style="color:white">Accessibility</a></li>
+                            <li><a href="#" style="color:white">Privacy Right</a></li>
+                            <li><a href="#" style="color:white">Contact</a></li>
+                            <li><a href="#" style="color:white">FAQ</a></li>
+                            <li><a href="#" style="color:white">Careers</a></li>
+                            <li><a href="#" style="color:white">Let's Play</a></li>
+                        </ul>
+                        <div class="credit"><br>
+                            <p>7UP and DO MORE WITH 7UP are trademarks of Dr Pepper/Seven Up, Inc. © 2024 Dr Pepper/Seven Up, Inc.</p>
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+        </main><br><br><br><br>
+    </body>
+ </html>
